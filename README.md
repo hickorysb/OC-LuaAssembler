@@ -1,7 +1,7 @@
 
 # OC-LuaAssembler
 
-An generic assembler made for open computers. (Made to make C-like languages or any language really for OC) Plans to port this to CC is undetermined.
+A generic assembler made for open computers. (Made to make C-like languages or really any language for OpenComputers) Plans to port this to ComputerCraft are undetermined.
 
 
 
@@ -11,13 +11,13 @@ An generic assembler made for open computers. (Made to make C-like languages or 
 
 The main purpose of LA is to make a very generic x86-like assembly language that can be used to make other compilers.
 
-For example, the main motivation of this project was to recreate C/C++ in OC, with little overhead and with efficieny. 
+For example, the main motivation of this project was to recreate C/C++ in OC, with little overhead and efficieny. 
 
 
 
 # How to contribute
 
-Because the project is so early, I need to have a basic structure. Will be updated in the future
+Because the project is so early, I need to have a basic structure. More information on contribution will be added in the future
 
 
 
@@ -45,8 +45,8 @@ Files:
 * .asmh = header/include file
 
 LA will have two modes of operation:
-1. Interpreted (Will be the latest updated due to its simplicity)
-2. A "Compiled" version that will be assembly converted directly into lua for little to no overhead. This will be more difficult then #1 to work on and implement.
+1. Interpreted, this version will be updated more frequetly with new features due to it's simplicity.
+2. A "Compiled" version that will be assembly converted directly into lua for little to no overhead. Due to the more complex nature of compiling to directly to Lua, the compiled version of the language will lag behind the interpreted version in the realm of features. We will make an attempt to make bug fixes available for both versions as quickly as possible.
 
 # TODO
 * File structure
